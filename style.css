@@ -1,0 +1,153 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.4;
+    font-family: sans-serif;
+}
+
+.container 
+{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: #b0adad; */
+}
+
+.section-1 
+{
+    margin-top: 30px;
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.img-section-1
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 7%;
+}
+
+.heading-section-1 
+{
+    font-size: xx-large;
+    line-height: 1.2;
+    margin-bottom: 20px;
+
+}
+
+.para-section-1 
+{
+    margin-bottom: 30px;
+    font-size: x-large;
+}
+
+.btn-section-1 
+{
+    display: none;
+    border: 0;
+    background-color: #316a44;
+    /* margin-left: 30px; */
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 25%;
+
+}
+
+.shape 
+{
+    background-color: rgb(78, 131, 61);
+    display: inline-block;
+    padding: 16px 32px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.shape:hover
+{
+    background-color: #398452;
+}
+.design-section-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+}
+.svg-section-2{
+    width: 50px;
+    height: 50px;
+}
+.greenpage{
+    margin-top: 50px;
+    background-color: #398452;
+    border-radius: 15px;
+}
+.meets{
+    margin-top: 15px;
+    margin-left: 15px;
+    display: grid;
+    border-radius: 15px;
+    
+}
+.greenpage{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.my{
+    align-self: center;
+    font-size: x-large;
+    color: white;
+}
+.my h3{
+    align-content: center;
+}
+.products{
+    font-size: x-large;
+    margin-top: 20px;
+}
+.svg {
+    width: 15px;
+    height: 15px;
+    color: #316a44;
+  }
+  
+  .f1 {
+    display: flex;
+    gap: 5px;
+  }
+  .f0 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    padding: 20px;
+  }
+  .c0 {
+  
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 10px 10px 4px gray;
+  }
+  .b0 {
+    background-color: rgb(224, 72, 98);
+    color: black;
+    position: absolute;
+    right: 1%;
+    bottom: 1%;
+    border-radius: 10px;
+  }
+  .b0:hover{
+    background-color: rgb(209, 96, 209);
+    
+  }
+  #p0 {
+    margin-top: 15px;
+  }
+  .l1{
+    font-weight: bold;
+  }
+
+
+    
